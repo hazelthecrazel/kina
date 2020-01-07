@@ -1,0 +1,3318 @@
+<script>resizeTo(screen.availWidth, screen.availHeight);</script> 
+<script language=javascript>document.title=("Kina Buvelle")</script>
+
+<style>
+body{
+background-image: url('') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important;
+background-size:100% 100%;
+background-color:#cccccc;
+}
+
+::-webkit-scrollbar {width: 5px; height: 5px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #b8bbbf;}
+
+#kina1 {
+position:absolute;
+width:18%;
+height:100%;
+top:0%;
+left:0%;
+background-image: url('https://i.imgur.com/vqqDnGo.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:left !important;
+background-size:cover;
+}
+
+#credits {
+position:absolute;
+opacity:0;
+padding:1%;
+background-color:rgba(255, 255, 255, 0.8);
+width:16%;
+height:95.5%;
+top:0%;
+left:0%;
+text-align:center;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#credits:hover {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabarea {
+position:absolute;
+width:4%;
+height:100%;
+top:0%;
+left:18%;
+background-color:#e0deda;
+}
+
+#generalarea {
+position:absolute;
+width:22%;
+height:100%;
+top:0%;
+left:78%;
+background-color:#e0deda;
+}
+
+#kina2border1 {
+position:absolute;
+width:16%;
+height:32%;
+top:5%;
+left:81%;
+background-color:#ffffff;
+}
+
+#kina2border2 {
+position:absolute;
+width:14%;
+height:28%;
+top:7%;
+left:82%;
+background-color:#e0deda;
+}
+
+#kina2 {
+position:absolute;
+width:12%;
+height:24%;
+top:9%;
+left:83%;
+background-image: url('https://i.imgur.com/WBNc8YD.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important;
+background-size:cover;
+}
+
+#basictitle1 {
+position:absolute;
+width:6%;
+height:4%;
+top:39%;
+left:81%;
+background-color:#cccccc;
+font-family: 'Girassol', cursive;
+text-align:center;
+font-size:2.5vh;
+color:#000000;
+line-height:1.5;
+}
+
+#basicstat1 {
+position:absolute;
+width:10%;
+height:4%;
+top:39%;
+left:87%;
+color:#a8aaad;
+text-align:center;
+font-size:1.8vh;
+line-height:2.2;
+font-family: 'Poppins', sans-serif;
+}
+
+#dottedline1 {
+position:absolute;
+width:16%;
+top:43%;
+left:81%;
+border-bottom:1px dashed #ffffff;
+}
+
+#basictitle2 {
+position:absolute;
+width:6%;
+height:4%;
+top:44%;
+left:81%;
+background-color:#cccccc;
+font-family: 'Girassol', cursive;
+text-align:center;
+font-size:2.5vh;
+color:#000000;
+line-height:1.5;
+}
+
+#basicstat2 {
+position:absolute;
+width:10%;
+height:4%;
+top:44%;
+left:87%;
+color:#a8aaad;
+text-align:center;
+font-size:1.8vh;
+line-height:2.2;
+font-family: 'Poppins', sans-serif;
+}
+
+#dottedline2 {
+position:absolute;
+width:16%;
+top:48%;
+left:81%;
+border-bottom:1px dashed #ffffff;
+}
+
+#basictitle3 {
+position:absolute;
+width:6%;
+height:4%;
+top:49%;
+left:81%;
+background-color:#cccccc;
+font-family: 'Girassol', cursive;
+text-align:center;
+font-size:2.5vh;
+color:#000000;
+line-height:1.5;
+}
+
+#basicstat3 {
+position:absolute;
+width:10%;
+height:4%;
+top:49%;
+left:87%;
+color:#a8aaad;
+text-align:center;
+font-size:1.8vh;
+line-height:2.2;
+font-family: 'Poppins', sans-serif;
+}
+
+#dottedline3 {
+position:absolute;
+width:16%;
+top:53%;
+left:81%;
+border-bottom:1px dashed #ffffff;
+}
+
+#basictitle4 {
+position:absolute;
+width:6%;
+height:4%;
+top:54%;
+left:81%;
+background-color:#cccccc;
+font-family: 'Girassol', cursive;
+text-align:center;
+font-size:2.5vh;
+color:#000000;
+line-height:1.5;
+}
+
+#basicstat4 {
+position:absolute;
+width:10%;
+height:4%;
+top:54%;
+left:87%;
+color:#a8aaad;
+text-align:center;
+font-size:1.8vh;
+line-height:2.2;
+font-family: 'Poppins', sans-serif;
+}
+
+#dottedline4 {
+position:absolute;
+width:16%;
+top:58%;
+left:81%;
+border-bottom:1px dashed #ffffff;
+}
+
+#basictitle5 {
+position:absolute;
+width:6%;
+height:4%;
+top:59%;
+left:81%;
+background-color:#cccccc;
+font-family: 'Girassol', cursive;
+text-align:center;
+font-size:2.5vh;
+color:#000000;
+line-height:1.5;
+}
+
+#basicstat5 {
+position:absolute;
+width:10%;
+height:4%;
+top:59%;
+left:87%;
+color:#a8aaad;
+text-align:center;
+font-size:1.8vh;
+line-height:2.2;
+font-family: 'Poppins', sans-serif;
+}
+
+#dottedline5 {
+position:absolute;
+width:16%;
+top:63%;
+left:81%;
+border-bottom:1px dashed #ffffff;
+}
+
+#basictitle6 {
+position:absolute;
+width:6%;
+height:4%;
+top:64%;
+left:81%;
+background-color:#cccccc;
+font-family: 'Girassol', cursive;
+text-align:center;
+font-size:2.5vh;
+color:#000000;
+line-height:1.5;
+}
+
+#basicstat6 {
+position:absolute;
+width:10%;
+height:4%;
+top:64%;
+left:87%;
+color:#a8aaad;
+text-align:center;
+font-size:1.8vh;
+line-height:2.2;
+font-family: 'Poppins', sans-serif;
+}
+
+#dottedline6 {
+position:absolute;
+width:16%;
+top:68%;
+left:81%;
+border-bottom:1px dashed #ffffff;
+}
+
+#quoteareaborder1 {
+position:absolute;
+width:16%;
+height:25%;
+top:70%;
+left:81%;
+background-color:#ffffff;
+}
+
+#quotearea {
+position:absolute;
+overflow:auto;
+padding:1%;
+width:12%;
+height:17%;
+top:72%;
+left:82%;
+background-color:#e0deda;
+font-family: 'Crimson Text', serif;
+font-size:1.7vh;
+color:#ffffff;
+text-align:center;
+}
+
+#tabbutton1 {
+position:absolute;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:100%;
+width:2%;
+height:4%;
+top:5%;
+left:19%;
+font-family: 'Crimson Text', serif;
+text-transform:uppercase;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabdescriptor1 {
+position:absolute;
+opacity:0;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:10px;
+width:8%;
+height:4%;
+top:5%;
+left:23%;
+font-family: 'Poppins', sans-serif;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton1:hover + #tabdescriptor1 {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton2 {
+position:absolute;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:100%;
+width:2%;
+height:4%;
+top:12%;
+left:19%;
+font-family: 'Crimson Text', serif;
+text-transform:uppercase;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabdescriptor2 {
+position:absolute;
+opacity:0;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:10px;
+width:8%;
+height:4%;
+top:12%;
+left:23%;
+font-family: 'Poppins', sans-serif;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton2:hover + #tabdescriptor2 {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton3 {
+position:absolute;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:100%;
+width:2%;
+height:4%;
+top:19%;
+left:19%;
+font-family: 'Crimson Text', serif;
+text-transform:uppercase;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabdescriptor3 {
+position:absolute;
+opacity:0;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:10px;
+width:8%;
+height:4%;
+top:19%;
+left:23%;
+font-family: 'Poppins', sans-serif;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton3:hover + #tabdescriptor3 {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton4 {
+position:absolute;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:100%;
+width:2%;
+height:4%;
+top:26%;
+left:19%;
+font-family: 'Crimson Text', serif;
+text-transform:uppercase;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabdescriptor4 {
+position:absolute;
+opacity:0;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:10px;
+width:8%;
+height:4%;
+top:26%;
+left:23%;
+font-family: 'Poppins', sans-serif;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton4:hover + #tabdescriptor4 {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton5 {
+position:absolute;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:100%;
+width:2%;
+height:4%;
+top:33%;
+left:19%;
+font-family: 'Crimson Text', serif;
+text-transform:uppercase;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabdescriptor5 {
+position:absolute;
+opacity:0;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:10px;
+width:8%;
+height:4%;
+top:33%;
+left:23%;
+font-family: 'Poppins', sans-serif;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton5:hover + #tabdescriptor5 {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton6 {
+position:absolute;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:100%;
+width:2%;
+height:4%;
+top:40%;
+left:19%;
+font-family: 'Crimson Text', serif;
+text-transform:uppercase;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabdescriptor6 {
+position:absolute;
+opacity:0;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:10px;
+width:8%;
+height:4%;
+top:40%;
+left:23%;
+font-family: 'Poppins', sans-serif;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton6:hover + #tabdescriptor6 {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton7 {
+position:absolute;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:100%;
+width:2%;
+height:4%;
+top:47%;
+left:19%;
+font-family: 'Crimson Text', serif;
+text-transform:uppercase;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabdescriptor7 {
+position:absolute;
+opacity:0;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:10px;
+width:8%;
+height:4%;
+top:47%;
+left:23%;
+font-family: 'Poppins', sans-serif;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton7:hover + #tabdescriptor7 {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton8 {
+position:absolute;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:100%;
+width:2%;
+height:4%;
+top:54%;
+left:19%;
+font-family: 'Crimson Text', serif;
+text-transform:uppercase;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabdescriptor8 {
+position:absolute;
+opacity:0;
+border:1px solid #89b5c7;
+background-color:#cccccc;
+border-radius:10px;
+width:8%;
+height:4%;
+top:54%;
+left:23%;
+font-family: 'Poppins', sans-serif;
+color:#ffffff;
+font-size:2vh;
+text-align:center;
+line-height:2;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbutton8:hover + #tabdescriptor8 {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabareatitle {
+position:absolute;
+width:4%;
+height:38%;
+top:62%;
+left:18%;
+writing-mode: vertical-rl;
+text-orientation: sideways;
+text-align:center;
+font-family: 'Girassol', cursive;
+font-size:4vh;
+letter-spacing:5px;
+line-height:1.85;
+color:#000000;
+}
+
+#content {
+position:absolute;
+overflow:auto;
+width:56%;
+height:100%;
+top:0%;
+left:22%;
+background-color:#d7dbe0;
+}
+
+#appearancebox {
+position:absolute;
+border:1px solid #ffffff;
+width:50%;
+height:42%;
+top:5%;
+left:5%;
+}
+
+#appearancetitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:50%;
+height:4%;
+top:5%;
+left:5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#appearance {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:47%;
+height:34%;
+top:10%;
+left:5.5%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#pic1box {
+position:absolute;
+border:1px solid #ffffff;
+width:35%;
+height:42%;
+top:5%;
+left:60%;
+}
+
+#pic1title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:35%;
+height:4%;
+top:5%;
+left:60%;
+text-align:center;
+font-family: 'Crimson Text', serif;
+color:#b8bbbf;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#pic1 {
+position:absolute;
+width:100%;
+height:90%;
+top:10%;
+left:0%;
+background-image: url('https://i.imgur.com/yJWKreY.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important;
+background-size:cover;
+}
+
+#pic2box {
+position:absolute;
+border:1px solid #ffffff;
+width:35%;
+height:42%;
+top:53%;
+left:5%;
+}
+
+#pic2title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:35%;
+height:4%;
+top:53%;
+left:5%;
+text-align:center;
+font-family: 'Crimson Text', serif;
+color:#b8bbbf;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#pic2 {
+position:absolute;
+width:100%;
+height:90%;
+top:10%;
+left:0%;
+background-image: url('https://i.imgur.com/LKjUXQH.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important;
+background-size:cover;
+}
+
+#personalitybox {
+position:absolute;
+border:1px solid #ffffff;
+width:50%;
+height:42%;
+top:53%;
+left:45%;
+}
+
+#personalitytitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:50%;
+height:4%;
+top:53%;
+left:45%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#personality {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:47%;
+height:34%;
+top:58%;
+left:45.5%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#pic3box {
+position:absolute;
+border:1px solid #ffffff;
+width:90%;
+height:28%;
+top:5%;
+left:5%;
+}
+
+#pic3title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:90%;
+height:4%;
+top:5%;
+left:5%;
+text-align:center;
+font-family: 'Crimson Text', serif;
+color:#b8bbbf;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#pic3 {
+position:absolute;
+background-color:#666666;
+width:100%;
+height:85%;
+top:15%;
+left:0%;
+background-image: url('https://i.imgur.com/XL7zish.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#preulreichbox {
+position:absolute;
+border:1px solid #ffffff;
+width:42%;
+height:57%;
+top:38%;
+left:5%;
+}
+
+#preulreichtitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42%;
+height:4%;
+top:38%;
+left:5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#preulreich {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38%;
+height:48.5%;
+top:43%;
+left:6%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#postulreichbox {
+position:absolute;
+border:1px solid #ffffff;
+width:42%;
+height:57%;
+top:38%;
+left:53%;
+}
+
+#postulreichtitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42%;
+height:4%;
+top:38%;
+left:53%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#postulreich {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38%;
+height:48.5%;
+top:43%;
+left:54%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#pic4box {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:5%;
+left:5%;
+}
+
+#pic4title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:5%;
+left:5%;
+text-align:center;
+font-family: 'Crimson Text', serif;
+color:#b8bbbf;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#pic4 {
+position:absolute;
+width:100%;
+height:90%;
+top:10%;
+left:0%;
+background-image: url('https://i.imgur.com/ouuMGFW.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#mediumbox {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:52.5%;
+left:5%;
+}
+
+#mediumtitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:52.5%;
+left:5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#medium {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38.5%;
+height:34%;
+top:57.5%;
+left:6%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#mundaneitembox {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:5%;
+left:52.5%;
+}
+
+#mundaneitemtitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:5%;
+left:52.5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#mundaneitem {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38.5%;
+height:34%;
+top:10%;
+left:53.5%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#magicitembox {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:52.5%;
+left:52.5%;
+}
+
+#magicitemtitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:52.5%;
+left:52.5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#magicitem {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38.5%;
+height:34%;
+top:57.5%;
+left:53.5%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#archmagespellsbox {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:90%;
+top:5%;
+left:5%;
+}
+
+#archmagespellstitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:5%;
+left:5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#archmagespells {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38.8%;
+height:82%;
+top:10%;
+left:6%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#archmagemanatypebox {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:5%;
+left:52.5%;
+}
+
+#archmagemanatypetitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:5%;
+left:52.5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#archmagetype {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38.8%;
+height:34%;
+top:10%;
+left:53.5%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#pic5box {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:52.5%;
+left:52.5%;
+}
+
+#pic5title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:52.5%;
+left:52.5%;
+text-align:center;
+font-family: 'Crimson Text', serif;
+color:#b8bbbf;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#pic5 {
+position:absolute;
+width:100%;
+height:90%;
+top:10%;
+left:0%;
+background-image: url('https://i.imgur.com/j62uIwx.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#pic6box {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:5%;
+left:5%;
+}
+
+#pic6title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:5%;
+left:5%;
+text-align:center;
+font-family: 'Crimson Text', serif;
+color:#b8bbbf;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#pic6 {
+position:absolute;
+width:100%;
+height:90%;
+top:10%;
+left:0%;
+background-image: url('https://i.imgur.com/V3JZXcU.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#faithdescriptionbox {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:52.5%;
+left:5%;
+}
+
+#faithdescriptiontitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:52.5%;
+left:5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#faithdescription {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38.8%;
+height:34%;
+top:57.5%;
+left:6%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#faithspellsbox {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:90%;
+top:5%;
+left:52.5%;
+}
+
+#faithspellstitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:5%;
+left:52.5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#faithspells {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38.8%;
+height:82%;
+top:10%;
+left:53.5%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#pic7box {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:90%;
+top:5%;
+left:5%;
+}
+
+#pic7title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:5%;
+left:5%;
+text-align:center;
+font-family: 'Crimson Text', serif;
+color:#b8bbbf;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#pic7 {
+position:absolute;
+width:100%;
+height:95%;
+top:5%;
+left:0%;
+background-image: url('https://i.imgur.com/e1sdJRU.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#geomancydescriptionbox {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:5%;
+left:52.5%;
+}
+
+#geomancydescriptiontitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:5%;
+left:52.5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#geomancydescription {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38.8%;
+height:34%;
+top:10%;
+left:53.5%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#geomancyspellsbox {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:52.5%;
+left:52.5%;
+}
+
+#geomancyspellstitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:52.5%;
+left:52.5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#geomancyspells {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38.8%;
+height:34%;
+top:57.5%;
+left:53.5%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#universalspellsbox {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:90%;
+top:5%;
+left:5%;
+}
+
+#universalspellstitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:5%;
+left:5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#universalspells {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38.8%;
+height:82%;
+top:10%;
+left:6%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#pic8box {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:5%;
+left:52.5%;
+}
+
+#pic8title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:5%;
+left:52.5%;
+text-align:center;
+font-family: 'Crimson Text', serif;
+color:#b8bbbf;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#pic8 {
+position:absolute;
+width:100%;
+height:90%;
+top:10%;
+left:0%;
+background-image: url('https://i.imgur.com/zcQIz2z.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#universaldescriptionbox {
+position:absolute;
+border:1px solid #ffffff;
+width:42.5%;
+height:42.5%;
+top:52.5%;
+left:52.5%;
+}
+
+#universaldescriptiontitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:42.5%;
+height:4%;
+top:52.5%;
+left:52.5%;
+text-align:center;
+font-family: 'Girassol', cursive;
+color:#a8aaad;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#universaldescription {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:38.8%;
+height:34%;
+top:57.5%;
+left:53.5%;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#inmemorybox {
+position:absolute;
+border:1px solid #ffffff;
+width:90%;
+height:14%;
+top:5%;
+left:5%;
+}
+
+#inmemorytitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:90%;
+height:4%;
+top:5%;
+left:5%;
+text-align:center;
+font-family: 'Crimson Text', serif;
+color:#b8bbbf;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#inmemory {
+position:absolute;
+padding:1%;
+width:86.3%;
+height:6%;
+top:10%;
+left:6%;
+text-align:center;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#deceasedfriend1box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:24%;
+left:5%;
+}
+
+#deceasedfriend1title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:24%;
+left:5%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend1picture {
+position:absolute;
+width:7%;
+height:8%;
+top:30%;
+left:7%;
+background-image: url('http://fp.chatango.com/profileimg/g/a/gamondevlin/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend1relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:30%;
+left:14%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend1relation {
+position:absolute;
+width:8%;
+height:3%;
+top:30%;
+left:21%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend1accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:35%;
+left:14%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend1account {
+position:absolute;
+width:8%;
+height:3%;
+top:35%;
+left:21%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#deceasedfriend2box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:24%;
+left:37%;
+}
+
+#deceasedfriend2title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:24%;
+left:37%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend2picture {
+position:absolute;
+width:7%;
+height:8%;
+top:30%;
+left:39%;
+background-image: url('http://fp.chatango.com/profileimg/r/o/rozenfeld/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend2relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:30%;
+left:46%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend2relation {
+position:absolute;
+width:8%;
+height:3%;
+top:30%;
+left:53%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend2accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:35%;
+left:46%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend2account {
+position:absolute;
+width:8%;
+height:3%;
+top:35%;
+left:53%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#deceasedfriend3box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:24%;
+left:69%;
+}
+
+#deceasedfriend3title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:24%;
+left:69%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend3picture {
+position:absolute;
+width:7%;
+height:8%;
+top:30%;
+left:71%;
+background-image: url('http://fp.chatango.com/profileimg/d/r/drags/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend3relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:30%;
+left:78%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend3relation {
+position:absolute;
+width:8%;
+height:3%;
+top:30%;
+left:85%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend3accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:35%;
+left:78%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend3account {
+position:absolute;
+width:8%;
+height:3%;
+top:35%;
+left:85%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#currentfriendsbox {
+position:absolute;
+border:1px solid #ffffff;
+width:90%;
+height:14%;
+top:45%;
+left:5%;
+}
+
+#currentfriendstitle {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:90%;
+height:4%;
+top:45%;
+left:5%;
+text-align:center;
+font-family: 'Crimson Text', serif;
+color:#b8bbbf;
+font-size:3vh;
+letter-spacing:3px;
+}
+
+#currentfriends {
+position:absolute;
+padding:1%;
+width:86.3%;
+height:6%;
+top:50%;
+left:6%;
+text-align:center;
+color:#666666;
+font-family: 'Poppins', sans-serif;
+font-size:1.5vh;
+}
+
+#friend4box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:64%;
+left:5%;
+}
+
+#friend4title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:64%;
+left:5%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend4picture {
+position:absolute;
+width:7%;
+height:8%;
+top:70%;
+left:7%;
+background-image: url('http://fp.chatango.com/profileimg/f/a/fae/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend4relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:70%;
+left:14%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend4relation {
+position:absolute;
+width:8%;
+height:3%;
+top:70%;
+left:21%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend4accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:75%;
+left:14%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend4account {
+position:absolute;
+width:8%;
+height:3%;
+top:75%;
+left:21%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend5box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:64%;
+left:37%;
+}
+
+#friend5title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:64%;
+left:37%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend5picture {
+position:absolute;
+width:7%;
+height:8%;
+top:70%;
+left:39%;
+background-image: url('http://fp.chatango.com/profileimg/r/u/rune/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend5relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:70%;
+left:46%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend5relation {
+position:absolute;
+width:8%;
+height:3%;
+top:70%;
+left:53%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend5accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:75%;
+left:46%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend5account {
+position:absolute;
+width:8%;
+height:3%;
+top:75%;
+left:53%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend6box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:64%;
+left:69%;
+}
+
+#friend6title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:64%;
+left:69%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend6picture {
+position:absolute;
+width:7%;
+height:8%;
+top:70%;
+left:71%;
+background-image: url('http://fp.chatango.com/profileimg/e/i/eidetikos/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend6relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:70%;
+left:78%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend6relation {
+position:absolute;
+width:8%;
+height:3%;
+top:70%;
+left:85%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend6accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:75%;
+left:78%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend6account {
+position:absolute;
+width:8%;
+height:3%;
+top:75%;
+left:85%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend7box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:85%;
+left:5%;
+}
+
+#friend7title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:85%;
+left:5%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend7picture {
+position:absolute;
+width:7%;
+height:8%;
+top:91%;
+left:7%;
+background-image: url('http://fp.chatango.com/profileimg/g/r/groove/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend7relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:91%;
+left:14%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend7relation {
+position:absolute;
+width:8%;
+height:3%;
+top:91%;
+left:21%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend7accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:96%;
+left:14%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend7account {
+position:absolute;
+width:8%;
+height:3%;
+top:96%;
+left:21%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend8box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:85%;
+left:37%;
+}
+
+#friend8title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:85%;
+left:37%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend8picture {
+position:absolute;
+width:7%;
+height:8%;
+top:91%;
+left:39%;
+background-image: url('http://fp.chatango.com/profileimg/b/e/being/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend8relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:91%;
+left:46%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend8relation {
+position:absolute;
+width:8%;
+height:3%;
+top:91%;
+left:53%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend8accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:96%;
+left:46%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend8account {
+position:absolute;
+width:8%;
+height:3%;
+top:96%;
+left:53%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend9box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:85%;
+left:69%;
+}
+
+#friend9title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:85%;
+left:69%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend9picture {
+position:absolute;
+width:7%;
+height:8%;
+top:91%;
+left:71%;
+background-image: url('http://fp.chatango.com/profileimg/t/a/taintedeve/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend9relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:91%;
+left:78%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend9relation {
+position:absolute;
+width:8%;
+height:3%;
+top:91%;
+left:85%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend9accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:96%;
+left:78%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend9account {
+position:absolute;
+width:8%;
+height:3%;
+top:96%;
+left:85%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend10box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:106%;
+left:5%;
+}
+
+#friend10title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:106%;
+left:5%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend10picture {
+position:absolute;
+width:7%;
+height:8%;
+top:112%;
+left:7%;
+background-image: url('http://fp.chatango.com/profileimg/i/s/isaboedevlin/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend10relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:112%;
+left:14%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend10relation {
+position:absolute;
+width:8%;
+height:3%;
+top:112%;
+left:21%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend10accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:117%;
+left:14%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend10account {
+position:absolute;
+width:8%;
+height:3%;
+top:117%;
+left:21%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend11box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:106%;
+left:37%;
+}
+
+#friend11title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:106%;
+left:37%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend11picture {
+position:absolute;
+width:7%;
+height:8%;
+top:112%;
+left:39%;
+background-image: url('http://fp.chatango.com/profileimg/d/r/dryad/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend11relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:112%;
+left:46%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend11relation {
+position:absolute;
+width:8%;
+height:3%;
+top:112%;
+left:53%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend11accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:117%;
+left:46%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend11account {
+position:absolute;
+width:8%;
+height:3%;
+top:117%;
+left:53%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend12box {
+position:absolute;
+border:1px solid #ffffff;
+width:26%;
+height:16%;
+top:106%;
+left:69%;
+}
+
+#friend12title {
+position:absolute;
+border-bottom:1px solid #ffffff;
+width:26%;
+height:4%;
+top:106%;
+left:69%;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color:#a8aaad;
+font-size:3vh;
+}
+
+#friend12picture {
+position:absolute;
+width:7%;
+height:8%;
+top:112%;
+left:71%;
+background-image: url('http://fp.chatango.com/profileimg/e/p/ephemeral/thumb.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:top !important;
+background-size:cover;
+}
+
+#friend12relationtitle {
+position:absolute;
+width:7%;
+height:3%;
+top:112%;
+left:78%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend12relation {
+position:absolute;
+width:8%;
+height:3%;
+top:112%;
+left:85%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#friend12accounttitle {
+position:absolute;
+width:7%;
+height:3%;
+top:117%;
+left:78%;
+text-align:center;
+color:#000000;
+font-size:1.5vh;
+font-family: 'Girassol', cursive;
+line-height:1.8;
+}
+
+#friend12account {
+position:absolute;
+width:8%;
+height:3%;
+top:117%;
+left:85%;
+text-align:center;
+color:#666666;
+font-size:1.5vh;
+line-height:1.8;
+font-family: 'Crimson Text', serif;
+}
+
+#spacingspace {
+position:absolute;
+width:100%;
+height:5%;
+top:122%;
+left:0%;
+}
+
+.tabs{
+display:block;
+width:100%;
+height:100%;
+border-radius:100%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs:hover {
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8 {
+display: none;
+}
+
+i {
+color:#000000;
+}
+
+u {
+color:#ffffff;
+}
+
+h1 {
+color:#666666;
+border-left:10px solid #666666;
+background-color:#999999;
+font-size:2.5vh;
+font-family: 'Crimson Text', serif;
+}
+
+a {
+color:#666666;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+a:hover {
+color:#999999;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+b {
+color:#6b6d85;
+text-transform:uppercase;
+font-family: 'Crimson Text', serif;
+}
+
+</style>
+
+<style type="text/css">* {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur816.cur), auto !important;}</style>
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Girassol|Poppins&display=swap" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('content').innerHTML=document.getElementById(id).innerHTML}</script>
+
+<div id="content">
+<div id="appearancebox"></div>
+<div id="appearancetitle">
+Appearance
+</div>
+<div id="appearance">
+This Faith mage lacks the desired hourglass shape that some women have, her narrow shoulders tapering down into her thin waist that accentuates her hips and gives her more of a pear shape than anything else. She is blessed with long legs bound in fair peachy flesh and she walks with a poised air about her, platinum blonde locks almost considered as “white” falling around her body that makes her appear a tad bit darker than she really is.
+<br><br>
+Kina has distinct facial features somewhat European in origin with perfect symmetry. Her cheekbones are high and proud, her face ovular with a defined jawline and a rounded chin. Kina’s lips are plump and pink, complementing the shades of pink that decorate her cheeks and nose. Her eyes are almond shaped and are a startling shade of sky blue that are often described as piercing but with an odd sense of warmth about them.
+<a target="_blank" href="http://chatango.com">Link</a>
+</div>
+<div id="pic1box">
+<div id="pic1"></div>
+</div>
+<div id="pic1title">
+~ K i n a ~
+</div>
+<div id="pic2box">
+<div id="pic2"></div>
+</div>
+<div id="pic2title">
+~ B u v e l l e ~
+</div>
+<div id="personalitybox"></div>
+<div id="personalitytitle">
+Personality
+</div>
+<div id="personality">
+Kina has come a very long way from the start of her Ulreich journey, having gone through hard losses and proud gains over the past several years that has turned her into the woman she is now. She viewed Ulreich as a means of escape and had about her a strong sense of ambition. She wanted to become the strongest mage anyone had ever seen while still being only sixteen at the time. She was incredibly temperamental and antagonistic to her peers until people walked into her life that changed her permanently.
+<br><br>
+After the loss of her love interest, a good friend, and several respected peers, Kina’s views on life and priorities changed. She now strives to uphold peace amongst her fellow students and will do whatever she can to help someone in need regardless of whether or not she gains anything from it. However she is not above fighting for what she believes is right, especially if it keeps those she loves out of harm’s way.
+</div>
+</div>
+
+<div id="kina1"></div>
+<div id="credits">
+<b>Image Credits</b>
+<br>
+<li><a target="_blank" href="https://dejinyucu.tumblr.com/post/160588940992/more-nierautomata-doodles-from-twitter-edit-i">Under title "Kina"</a></li>
+<li><a target="_blank" href="https://viperoserio2.tumblr.com/?ref_url=https://viperoserio2.tumblr.com/post/183310162271/yorha-type-a-no-2-a2-nier-automata/embed">Under title "Buvelle"</a></li>
+<li><a target="_blank" href="https://emy-san.tumblr.com/post/162015029134/yorha-type-a-no2">Leftmost image (static)</a></li>
+<li><a target="_blank" href="https://www.artstation.com/artwork/oOyvNk">Rightmost image (static)</a></li>
+<li><a target="_blank" href="https://www.deviantart.com/cglas/art/Nier-A2-682725506">Under title "The Earth Warden's Life Thus Far"</a></li>
+<li><a target="_blank" href="https://twitter.com/renlewiz/status/973209544338714624">Under title "Earth Warden's Tools"</a></li>
+<li><a target="_blank" href="https://www.deviantart.com/scalpelarts">Under title "Earth Warden: The Magic"</a></li>
+<li><a target="_blank" href="https://illycia.tumblr.com/">Under title "Primary Tree: Faith"</a></li>
+<li><a target="_blank" href="https://www.deviantart.com/gothicq">Under title "Secondary Tree: Geomancy"</a></li>
+<li><a target="_blank" href="https://www.deviantart.com/nanahii">Under title "Taught Techniques"</a></li>
+<br>
+<b>Music Credits</b>
+<br>
+- Coming Soon -
+<br><br>
+<b>Theme Credits</b>
+<br>
+This theme was coded for personal use by <a target="_blank" href="http://being.chatango.com">Being</a>. Please do not use without permission, copy, or redistribute.
+</div>
+<div id="tabarea"></div>
+<div id="tabbutton1">
+<span class="tabs" onClick="changeNavigation ('tab1')">I</span>
+</div>
+<div id="tabdescriptor1">
+Details
+</div>
+<div id="tabbutton2">
+<span class="tabs" onClick="changeNavigation ('tab2')">II</span>
+</div>
+<div id="tabdescriptor2">
+History
+</div>
+<div id="tabbutton3">
+<span class="tabs" onClick="changeNavigation ('tab3')">III</span>
+</div>
+<div id="tabdescriptor3">
+Inventory
+</div>
+<div id="tabbutton4">
+<span class="tabs" onClick="changeNavigation ('tab4')">IV</span>
+</div>
+<div id="tabdescriptor4">
+Archmage
+</div>
+<div id="tabbutton5">
+<span class="tabs" onClick="changeNavigation ('tab5')">V</span>
+</div>
+<div id="tabdescriptor5">
+Primary
+</div>
+<div id="tabbutton6">
+<span class="tabs" onClick="changeNavigation ('tab6')">VI</span>
+</div>
+<div id="tabdescriptor6">
+Secondary
+</div>
+<div id="tabbutton7">
+<span class="tabs" onClick="changeNavigation ('tab7')">VII</span>
+</div>
+<div id="tabdescriptor7">
+Universals
+</div>
+<div id="tabbutton8">
+<span class="tabs" onClick="changeNavigation ('tab8')">VIII</span>
+</div>
+<div id="tabdescriptor8">
+Friends
+</div>
+<div id="tabareatitle">
+← navigation
+</div>
+
+<div id="generalarea"></div>
+<div id="kina2border1"></div>
+<div id="kina2border2"></div>
+<div id="kina2"></div>
+<div id="basictitle1">
+Name:
+</div>
+<div id="basicstat1">
+Kina Buvelle
+</div>
+<div id="dottedline1"></div>
+<div id="basictitle2">
+Age:
+</div>
+<div id="basicstat2">
+Nineteen
+</div>
+<div id="dottedline2"></div>
+<div id="basictitle3">
+Gender:
+</div>
+<div id="basicstat3">
+Cisgender Female
+</div>
+<div id="dottedline3"></div>
+<div id="basictitle4">
+Height:
+</div>
+<div id="basicstat4">
+5'5" (165 cm)
+</div>
+<div id="dottedline4"></div>
+<div id="basictitle5">
+Weight:
+</div>
+<div id="basicstat5">
+122 lbs. (55.4 kg)
+</div>
+<div id="dottedline5"></div>
+<div id="basictitle6">
+Rank:
+</div>
+<div id="basicstat6">
+High Archmage
+</div>
+<div id="dottedline6"></div>
+<div id="quoteareaborder1"></div>
+<div id="quotearea">
+❝ Coming Soon ❞
+</div>
+
+<div id="tab1">
+<div id="appearancebox"></div>
+<div id="appearancetitle">
+Appearance
+</div>
+<div id="appearance">
+This Faith mage lacks the desired hourglass shape that some women have, her narrow shoulders tapering down into her thin waist that accentuates her hips and gives her more of a pear shape than anything else. She is blessed with long legs bound in fair peachy flesh and she walks with a poised air about her, platinum blonde locks almost considered as “white” falling around her body that makes her appear a tad bit darker than she really is.
+<br><br>
+Kina has distinct facial features somewhat European in origin with perfect symmetry. Her cheekbones are high and proud, her face ovular with a defined jawline and a rounded chin. Kina’s lips are plump and pink, complementing the shades of pink that decorate her cheeks and nose. Her eyes are almond shaped and are a startling shade of sky blue that are often described as piercing but with an odd sense of warmth about them.
+</div>
+<div id="pic1box">
+<div id="pic1"></div>
+</div>
+<div id="pic1title">
+~ K i n a ~
+</div>
+<div id="pic2box">
+<div id="pic2"></div>
+</div>
+<div id="pic2title">
+~ B u v e l l e ~
+</div>
+<div id="personalitybox"></div>
+<div id="personalitytitle">
+Personality
+</div>
+<div id="personality">
+Kina has come a very long way from the start of her Ulreich journey, having gone through hard losses and proud gains over the past several years that has turned her into the woman she is now. She viewed Ulreich as a means of escape and had about her a strong sense of ambition. She wanted to become the strongest mage anyone had ever seen while still being only sixteen at the time. She was incredibly temperamental and antagonistic to her peers until people walked into her life that changed her permanently.
+<br><br>
+After the loss of her love interest, a good friend, and several respected peers, Kina’s views on life and priorities changed. She now strives to uphold peace amongst her fellow students and will do whatever she can to help someone in need regardless of whether or not she gains anything from it. However she is not above fighting for what she believes is right, especially if it keeps those she loves out of harm’s way.
+</div>
+</div>
+
+<div id="tab2">
+<div id="pic3box">
+<div id="pic3"></div>
+</div>
+<div id="pic3title">
+The Earth Warden's Life Thus Far
+</div>
+<div id="preulreichbox"></div>
+<div id="preulreichtitle">
+Before Ulreich University
+</div>
+<div id="preulreich">
+Across the vast Multiverse spawned another world, an identical twin to the commonly referred to “New World”, their timelines aligned perfectly from the rise and fall of prehistoric creatures to the birth of mankind and their varying forms of religion. Not one being, otherworldly or native, could foretell the creation of a mutated plague that spread its devouring maw throughout Europe and most commonly affected humans and animals with low forms of immune systems. Children who had just been born or were still in infancy were attacked the most, as well as the elderly and those with immune deficiency disorders, and hundreds of thousands of lives were lost just before the Renaissance era began.
+<br><br>
+It had killed off many of the great artists as they were born, forming a new timeline where there would be /no/ great artistic revolution. However, as people scrambled to find some sort of way to defend themselves and their children from this disease they struck innovative gold. Medicines were made, ones unlike any other previously created, that utilized new forms of technology and allowed the Humans to formulate a cure. Once they realized what they had done and the possibilities these inventions opened up, everyone was hustling to create new things and improve their lives. This gave way to a massive technological boom, kickstarting a world that no one from the time could ever have imagined.
+<br><br>
+New inventions brought with it a better understanding of themselves and the world around them, even leading to the rediscovery of mana and magic which had been long forgotten as humans were coming to power. Now with magic in their arsenal, wars began to spring up like wildfire as nations made a mad-dash for power, taking lives so high in number that it couldn’t be accurately recorded. Land was destroyed and some places even became uninhabitable similarly to if a radioactive nuclear meltdown had occurred in the aftermath of each warzone. While not enough mana had been used to birth Corruption into the world, the circumstances were almost perfect to start breeding it like another disease that could cause countless more deaths. 
+<br>
+Once magical scholars and researchers realized this to be the case they forced an immediate cease-fire between all warring nations so that Practitioners of Faith magic could stay the rapidly developing magical cancer’s growth. It was promptly explained to the nations’ leaders that a magical war would only bring about their untimely demise and quite literally the destruction of their planet. They were thankfully able to see reason  and agreed to call off their battles to usher in an era of peace.
+<br><br>
+Without the worries of any world wars, as every single nation had agreed to the terms of the hastily-made peace treaty, life finally began to flourish once more under the influence of magic and mundane items mixing for an ultimately more fulfilling lifestyle for the average human. Flash forward to present-day society, the picture was like a science-fiction novel since this rapidly expanding race had a several-hundred-year early kickstart to all of the things “New World” humans had achieved.
+<br><br>
+It was on the sunny day of April 3, deep in the upper echelons of London’s high society, that a child was born under B.T.N. (British Technological Navy) Officer Alice Buvelle and Medical Scientist Laverne Buvelle. The infant girl was named Kina, a peculiar name for a peculiar child, with a head of platinum blonde hair like her mother and piercing blue eyes like her father. They took the babe home as soon as they could, life appearing like a paradise which only got better once the girl displayed a talent for the art of Faith healing. Proud and excited for her future, funds for higher education were immediately set in stone while they waited for Kina to be old enough to get enrolled into the best private institution possible.
+<br><br>
+Alice had secured herself enough time to get Kina up to her first year of school until she had to return to work that would take her to various places overseas for long periods at a time. The B.T.N. was a branch of the British Military that oversaw Sea Warfare and was always pushing for the exploration of the sea floor through the help of underwater machines crafted out of magic-enhanced metal alloys that were highly resistant to underwater pressure. This left her Father as the only parental figure that could regularly be found around the house, sacrificing any and all sources of research money to acquire a day job from which he could come home to his daughter and raise her as best he could while her Mother was away. This caused the relationships to tip in the favor of Laverne, the relationship between Alice and Kina dwindling into nothing since, well… she was never there. Kina didn’t /hate/ her Mother by any means, it was just that since they’d only interacted in her earliest years of growth, all of the necessary parental services required to get the girl through early adolescence was missed out on and thus there was no connective bond.
+<br><br>
+She was taught well and had many friends, but whenever breaks came around and they returned back to school she’d always hear them talking about what wondrous and memorable times they had with their families whereas Kina had no such experiences. For reasons unknown to her, after Alice had gone back into Military service she’d come home for the holidays with a sour mood that spoiled any forms of festivities. There was always arguing, her Mother barraging her Father with verbal abuse sometimes so intense that Kina feared she might strike the man until he couldn’t handle it and got himself a divorce which separated all ties from the family.
+<br><br>
+Kina wasn’t granted the ability to visit her dad as Alice manipulated corrupt judges to refuse them the right to associate with one another no matter how much she pleaded. Eventually no one came around for the holidays, or even at all, until all Kina had left was a elderly caretaker in that sad and closed house. Without anyone there to be supportive of her and her studies, the Faith mage withdrew herself from them and the only thing she could talk to were paintings and pictures of memories from happier times.
+<br><br>
+Life went by in grayscale for her for years until a few short days had passed after she’d reached her 15th birthday when news was plastered all over R.T.V. (think everyday Television just through realistic hologram-esque images) that struck the girl like someone had caught her flesh with a hot iron; Alice Buvelle, now stripped of her title of Officer, had bargained with unknown forces falsified incriminating evidence that the United Kingdom had been testing nuclear bombs laced with volatile mana that created a devastating war weapon. So much mana radiation leaked from the zones where these bombs were tested in sparse areas in Russia and Norway that it caused newborns and developing young children to develop grotesque mutations. 
+<br><br>
+Russia and Norway had no choice but to initiate declarations of war, the larger nations of the United States and Germany banding together in an attempt to end the conflict before too much damage could be done but achieved next to nothing as Alice immediately went about securing all of Britain under her magical iron first. However, what she couldn’t account for was that her own people were disgusted with her actions and fought back, a rebellion forcing the Witch out of their towns and cities and back into London where she could hide behind walls constructed both out magic and technology, bolstered by the mana pools of mages scattered throughout the continent that made it virtually impossible to break through without getting through what the woman called her “Inner Circle” first.
+<br><br>
+The final resistance battle held outside the fields of Dover (where Kina had been sequestered to as the war effort moved north) just a few hours away from London hosted so much mana in the air that it teetered on the edge of becoming a festering ground for minor traces of Corruption. Without any people to rid the world of it this time as they were all preoccupied with different things, the world itself found a way to adapt. A tether reached across the Multiverse until it connected with a world capable of forming a direct link to its own, a rift spawning in the forest surrounding the city that began feeding the magic energy into this new world. 
+<br><br>
+A very distraught Kina fled into the forest in the aftermath of the battle, the girl stumbling upon the rift. She gazed upon its surface, looking at the picture of a place unknown to her, and jumped through. While probably not the best idea given it could have taken her anywhere, she thought it a way to escape her troubles to an extent it sort of did.
+</div>
+<div id="postulreichbox"></div>
+<div id="postulreichtitle">
+Arrival & Beyond
+</div>
+<div id="postulreich">
+even more galore galore
+</div>
+</div>
+
+<div id="tab3">
+<div id="pic4box">
+<div id="pic4"></div>
+</div>
+<div id="pic4title">
+Earth Warden's Tools
+</div>
+<div id="mediumbox"></div>
+<div id="mediumtitle">
+High Archmage Medium
+</div>
+<div id="medium">
+Hey put some text in here
+</div>
+<div id="mundaneitembox"></div>
+<div id="mundaneitemtitle">
+Mundane Items & Weapons
+</div>
+<div id="mundaneitem">
+Don't forget about THIS text HERE
+</div>
+<div id="magicitembox"></div>
+<div id="magicitemtitle">
+Magic Items & Weapons
+</div>
+<div id="magicitem">
+Put some words here too mate
+</div>
+</div>
+
+<div id="tab4">
+<div id="archmagespellsbox"></div>
+<div id="archmagespellstitle">
+Archmage Abilities
+</div>
+<div id="archmagespells">
+Spells? Here
+</div>
+<div id="archmagemanatypebox"></div>
+<div id="archmagemanatypetitle">
+Unique Mana Type
+</div>
+<div id="archmagetype">
+Mana Type description? Here
+</div>
+<div id="pic5box">
+<div id="pic5"></div>
+</div>
+<div id="pic5title">
+Earth Warden: The Magic
+</div>
+</div>
+
+<div id="tab5">
+<div id="pic6box">
+<div id="pic6"></div>
+</div>
+<div id="pic6title">
+Primary Tree: Faith
+</div>
+<div id="faithdescriptionbox"></div>
+<div id="faithdescriptiontitle">
+Faith Magic
+</div>
+<div id="faithdescription">
+Put the tree description in here, stinky
+</div>
+<div id="faithspellsbox"></div>
+<div id="faithspellstitle">
+Faith Spells
+</div>
+<div id="faithspells">
+Put her Faith spells in HERE
+</div>
+</div>
+
+<div id="tab6">
+<div id="pic7box">
+<div id="pic7"></div>
+</div>
+<div id="pic7title">
+Secondary Tree: Geomancy
+</div>
+<div id="geomancydescriptionbox"></div>
+<div id="geomancydescriptiontitle">
+Geomancy Magic
+</div>
+<div id="geomancydescription">
+Put the other tree description here
+</div>
+<div id="geomancyspellsbox"></div>
+<div id="geomancyspellstitle">
+Geomancy Spells
+</div>
+<div id="geomancyspells">
+Put Geomancy spells HERE tho
+</div>
+</div>
+
+<div id="tab7">
+<div id="universalspellsbox"></div>
+<div id="universalspellstitle">
+Universal Spells
+</div>
+<div id="universalspells">
+Put those learned universals in this binch
+</div>
+<div id="pic8box">
+<div id="pic8"></div>
+</div>
+<div id="pic8title">
+Taught Techniques
+</div>
+<div id="universaldescriptionbox"></div>
+<div id="universaldescriptiontitle">
+Mana Manipulation
+</div>
+<div id="universaldescription">
+Mana manipulation? What is THAT? Tell us, here
+</div>
+</div>
+
+<div id="tab8">
+<div id="inmemorybox"></div>
+<div id="inmemorytitle">
+In Loving Memory
+</div>
+<div id="inmemory">
+<i>These three special individuals were some of Kina's first nearest and dearest friends. Although they have long since passed away she will continue to treasure them in her heart for years to come.</i>
+</div>
+<div id="deceasedfriend1box"></div>
+<div id="deceasedfriend1title">
+Gamon Devlin
+</div>
+<a target="_blank" href="http://gamondevlin.chatango.com"><div id="friend1picture"></div></a>
+<div id="friend1relationtitle">
+Relation:
+</div>
+<div id="friend1relation">
+Ex-Lover
+</div>
+<div id="friend1accounttitle">
+Account:
+</div>
+<div id="friend1account">
+GamonDevlin
+</div>
+<div id="deceasedfriend2box"></div>
+<div id="deceasedfriend2title">
+Altezza Rozenfeld
+</div>
+<a target="_blank" href="http://rozenfeld.chatango.com"><div id="friend2picture"></div></a>
+<div id="friend2relationtitle">
+Relation:
+</div>
+<div id="friend2relation">
+Friend
+</div>
+<div id="friend2accounttitle">
+Account:
+</div>
+<div id="friend2account">
+Rozenfeld
+</div>
+<div id="deceasedfriend3box"></div>
+<div id="deceasedfriend3title">
+Drags Alveraz
+</div>
+<a target="_blank" href="http://drags.chatango.com"><div id="friend3picture"></div></a>
+<div id="friend3relationtitle">
+Relation:
+</div>
+<div id="friend3relation">
+Friend
+</div>
+<div id="friend3accounttitle">
+Account:
+</div>
+<div id="friend3account">
+Drags
+</div>
+<div id="currentfriendsbox"></div>
+<div id="currentfriendstitle">
+The Earth Warden's Friends
+</div>
+<div id="currentfriends">
+<i>The following is an ever growing number of individuals Kina feels a strong kinship with. They have either proven themselves trustworthy, shown her genuine kindness, or given her a reason to look up to them. Maybe even all of the above!</i>
+</div>
+<div id="friend4box"></div>
+<div id="friend4title">
+Gossamer
+</div>
+<a target="_blank" href="http://fae.chatango.com"><div id="friend4picture"></div></a>
+<div id="friend4relationtitle">
+Relation:
+</div>
+<div id="friend4relation">
+Friend
+</div>
+<div id="friend4accounttitle">
+Account:
+</div>
+<div id="friend4account">
+Fae
+</div>
+<div id="friend5box"></div>
+<div id="friend5title">
+Rune Scribe
+</div>
+<a target="_blank" href="http://rune.chatango.com"><div id="friend5picture"></div></a>
+<div id="friend5relationtitle">
+Relation:
+</div>
+<div id="friend5relation">
+Close Friend
+</div>
+<div id="friend5accounttitle">
+Account:
+</div>
+<div id="friend5account">
+Rune
+</div>
+<div id="friend6box"></div>
+<div id="friend6title">
+Brooke
+</div>
+<a target="_blank" href="http://eidetikos.chatango.com"><div id="friend6picture"></div></a>
+<div id="friend6relationtitle">
+Relation:
+</div>
+<div id="friend6relation">
+Friend
+</div>
+<div id="friend6accounttitle">
+Account:
+</div>
+<div id="friend6account">
+Eidetikos
+</div>
+<div id="friend7box"></div>
+<div id="friend7title">
+Apollo O'Connor
+</div>
+<a target="_blank" href="http://groove.chatango.com"><div id="friend7picture"></div></a>
+<div id="friend7relationtitle">
+Relation:
+</div>
+<div id="friend7relation">
+Teacher
+</div>
+<div id="friend7accounttitle">
+Account:
+</div>
+<div id="friend7account">
+Groove
+</div>
+<div id="friend8box"></div>
+<div id="friend8title">
+Lady X
+</div>
+<a target="_blank" href="http://being.chatango.com"><div id="friend8picture"></div></a>
+<div id="friend8relationtitle">
+Relation:
+</div>
+<div id="friend8relation">
+Teacher
+</div>
+<div id="friend8accounttitle">
+Account:
+</div>
+<div id="friend8account">
+Being
+</div>
+<div id="friend9box"></div>
+<div id="friend9title">
+Eve Nightlock
+</div>
+<a target="_blank" href="http://taintedeve.chatango.com"><div id="friend9picture"></div></a>
+<div id="friend9relationtitle">
+Relation:
+</div>
+<div id="friend9relation">
+Friend
+</div>
+<div id="friend9accounttitle">
+Account:
+</div>
+<div id="friend9account">
+TaintedEve
+</div>
+<div id="friend10box"></div>
+<div id="friend10title">
+Isaboe Devlin
+</div>
+<a target="_blank" href="http://isaboedevlin.chatango.com"><div id="friend10picture"></div></a>
+<div id="friend10relationtitle">
+Relation:
+</div>
+<div id="friend10relation">
+Friend
+</div>
+<div id="friend10accounttitle">
+Account:
+</div>
+<div id="friend10account">
+IsaboeDevlin
+</div>
+<div id="friend11box"></div>
+<div id="friend11title">
+Jinny Grass
+</div>
+<a target="_blank" href="http://dryad.chatango.com"><div id="friend11picture"></div></a>
+<div id="friend11relationtitle">
+Relation:
+</div>
+<div id="friend11relation">
+Friend
+</div>
+<div id="friend11accounttitle">
+Account:
+</div>
+<div id="friend11account">
+Dryad
+</div>
+<div id="friend12box"></div>
+<div id="friend12title">
+???
+</div>
+<a target="_blank" href="http://chatango.com"><div id="friend12picture"></div></a>
+<div id="friend12relationtitle">
+Relation:
+</div>
+<div id="friend12relation">
+???
+</div>
+<div id="friend12accounttitle">
+Account:
+</div>
+<div id="friend12account">
+???
+</div>
+<div id="spacingspace"></div>
+</div>
+
+<embed style="height: 0%; width: 0%;"src="CBTA.mp3" autostart="true" loop="true">
